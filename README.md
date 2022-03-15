@@ -19,4 +19,4 @@
 
 ### my challenges
 
-How to move nav bar on top of the line with hover without moving line and other objects.
+How to change color and move nav bar on top of the line below when hover on it without moving line and other objects.

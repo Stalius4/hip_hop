@@ -1,2 +1,2 @@
-# hip_hop
- Website for codenation
+# CodeNation Website project
+

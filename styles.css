@@ -209,8 +209,8 @@ a:hover{
     height: 100vh;
     width: 80%;
     margin: auto;
-    grid-template-columns: 500px 500px 500px ;
-    grid-template-rows: 1fr 300px 300px 0.5fr;
+    grid-template-columns: 450px 450px 450px ;
+    grid-template-rows: 1fr 250px 250px 0.5fr;
     grid-template-areas:
       "nav nav nav "
       "content1 content2 content3 "
@@ -228,7 +228,7 @@ a:hover{
     background: hsl(240, 20%, 1%);
     grid-area: content1;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   spam{
@@ -239,34 +239,34 @@ a:hover{
     background: hsl(240, 20%, 1%);
     grid-area: content2;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    font-size: 25px;
+    font-size: 20px;
   }
   #graffiti1 {
     background: hsl(240, 20%, 1%);
     grid-area: content3;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   #mc1 {
     background: hsl(240, 20%, 1%);
     grid-area: content4;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   #beatbox1 {
     background: hsl(240, 20%, 1%);
     grid-area: content5;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   #dj1 {
     background: hsl(240, 20%, 1%);
     grid-area: content6;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .about {
@@ -274,8 +274,8 @@ a:hover{
     height: 100vh;
     width: 80%;
     margin: auto;
-    grid-template-columns: 500px 500px 500px ;
-    grid-template-rows: 1fr 300px 300px 0.5fr;
+    grid-template-columns: 450px 450px 450px ;
+    grid-template-rows: 1fr 250px 250px 0.5fr;
     grid-template-areas:
       "nav nav nav "
       ". main . "

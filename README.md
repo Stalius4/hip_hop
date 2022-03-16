@@ -33,4 +33,4 @@
 
 
 ## Acknowledgments
- I would like to thank to Code Nation and Keira for showing me how to use HTML, CSS and create our own webpage.
+ I would like to thank to Code Nation and Keira for showing me how to use HTML, CSS and create my own webpage.

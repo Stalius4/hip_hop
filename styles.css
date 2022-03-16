@@ -167,8 +167,8 @@ a:hover{
   @media only screen and (max-width: 550px) {
     .container {
         
-      grid-template-columns: 1fr;
-      grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+      grid-template-columns: 450px;
+      grid-template-rows: 0.4fr 230px 230px 230px 230px 230px 230px 1fr;
       grid-template-areas:
         "nav"
         "content1"
@@ -182,88 +182,11 @@ a:hover{
     }
   }
   
-@media only screen and (max-width: 550px) {
-    .story {
-        
-      grid-template-columns: 1fr;
-      grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
-      grid-template-areas:
-        "nav"
-        "content1"
-        "content2"
-        "content3"
-        "content4"
-        "content5"
-        "content6"
-        "footer";
-    
-    }
-}
-  .story {
-    display: grid;
-    height: 100vh;
-    width: 80%;
-    margin: auto;
-    grid-template-columns: 450px 450px 450px ;
-    grid-template-rows: 1fr 230px 230px 0.5fr;
-    grid-template-areas:
-      "nav nav nav "
-      "content1 content2 content3 "
-      "content4 content5 content6 "
-      "footer footer footer ";
-    grid-gap: 5rem;
-    font-weight: 600;
-    font-size: 35px;
-    color: #f1f5f4;
-    text-align: center;
-    font-family: 'Hubballi', cursive;
-  }
 
-  #break1 {
-    background: hsl(240, 20%, 1%);
-    grid-area: content1;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    font-size: 20px;
-  }
 
-  spam{
-    font-size: 35px;
-    
-  }
 
-  #hiphop1 {
-    background: hsl(240, 20%, 1%);
-    grid-area: content2;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    font-size: 20px;
-  }
-  #graffiti1 {
-    background: hsl(240, 20%, 1%);
-    grid-area: content3;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    font-size: 20px;
-  }
 
-  #mc1 {
-    background: hsl(240, 20%, 1%);
-    grid-area: content4;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    font-size: 20px;
-  }
 
-  #beatbox1 {
-    background: hsl(240, 20%, 1%);
-    grid-area: content5;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    font-size: 20px;
-  }
-
-  #dj1 {
-    background: hsl(240, 20%, 1%);
-    grid-area: content6;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    font-size: 20px;
-  }
 
   .about {
     display: grid;
@@ -271,11 +194,11 @@ a:hover{
     width: 80%;
     margin: auto;
     grid-template-columns: 450px 450px 450px ;
-    grid-template-rows: 1fr 250px 250px 0.5fr;
+    grid-template-rows: 1fr 227px 227px 0.5fr;
     grid-template-areas:
       "nav nav nav "
-      ". main . "
-      ". main . "
+      ". content7 . "
+      ". content7 . "
       "footer footer footer ";
     grid-gap: 5rem;
     font-weight: 600;
@@ -285,13 +208,50 @@ a:hover{
     font-family: 'Hubballi', cursive;
   }
 
-  main{
-      padding-top: 22%;
-    grid-area: main;
-    background-color: #000000;
-    border-radius: 8px;
+  @media only screen and (max-width: 550px) {
+    .contact {
+        
+      grid-template-columns: 450px;
+      grid-template-rows:  1fr 1fr 1fr;
+      grid-template-areas:
+        "nav "
+        "content7"
+        "content7"
+        "footer";
+    
+    }
+  }
+  .contact {
+    display: grid;
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 450px 450px 450px ;
+    grid-template-rows: 1fr 227px 227px 0.5fr;
+    grid-template-areas:
+      "nav nav nav "
+      ". content7 . "
+      ". content7 . "
+      "footer footer footer ";
+    grid-gap: 5rem;
+    font-weight: 600;
+    font-size: 35px;
+    color: #f1f5f4;
+    text-align: center;
+    font-family: 'Hubballi', cursive;
   }
 
+  #content7 {
+    padding-top: 12%;
+    grid-area: content7;
+    background-color: #000000;
+    border-radius: 8px;
+  } 
   .dancer{
       width: auto;
+  }
+
+  spam{
+    font-size: 35px;
+    
   }

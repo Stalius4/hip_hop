@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: rgb(255, 253, 253);
+    font-family: "Inter", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #f1f5f4;
+   
+}
+a:hover{
+    text-decoration: none;
+    color: #ffef14;
+
+}
+
+
+  nav {
+    grid-area: nav;
+    padding-top: 5px;
+    background: rgb(255,250,250);
+    border-bottom: #000000 solid 4px;
+    display: flex;
+    justify-content:flex-end;
+    padding-top:10rem ;
+  }
+  
+  .navbar a {
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+    color: hsl(0, 33%, 1%);
+    font-family: 'Hubballi', cursive;
+    transition-duration: 1s;
+
+  }
+
+  .navbar a:hover {
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(0, 33%, 1%);
+    font-family: 'Hubballi', cursive;
+    background-color: rgba(225, 228, 40, 0.829);
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    top: 10px; 
+   
+  }
+
+
+  .line{
+    position: relative;
+    transition-duration: 1s;
+    z-index: 1;
+  }
+
+  .line:hover{
+    position: relative;
+    opacity: 0.1;
+  }
+
+  .text-pos{
+    position: relative;
+    top:-160px
+  }
+ img{
+     width: 450px;
+     height: 200px;
+     border-radius: 5px 5px 0px 0px;
+
+ }
+
+  footer {
+    background: hsl(210, 30%, 29%);
+    grid-area: footer;
+    border-top: #050707 solid 3px;
+    background: #feffff;
+    box-shadow: 0px -20px 30px #595a5a50;
+    color:black;
+    display: flex;
+    justify-content:flex-end;
+    font-size: 20px;
+  }
+  
+  .fb{
+    width: 80px;
+    height: 80px;
+  }
+  footer img{
+      width: 40px;
+      height: 40px;
+  }
+
+  .contact {
+    display: grid;
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 450px 450px 450px ;
+    grid-template-rows: 1fr 227px 227px 0.5fr;
+    grid-template-areas:
+      "nav nav nav "
+      ". content1 . "
+      ". content1 . "
+      "footer footer footer ";
+    grid-gap: 5rem;
+    font-weight: 600;
+    font-size: 35px;
+    color: #f1f5f4;
+    text-align: center;
+    font-family: 'Hubballi', cursive;
+  }
+
+  @media only screen and (max-width: 550px) {
+    .contact {
+        
+      grid-template-columns: 450px;
+      grid-template-rows:  1fr 500px 1fr;
+      grid-template-areas:
+        "nav"
+        "content1"
+        "footer";
+    
+    }
+  }
+  main {
+    padding-top: 12%;
+    grid-area: content1;
+    background-color: #000000;
+    border-radius: 8px;
+
+  } 
+  .dancer{
+      width: auto;
+  }
+
+  spam{
+    font-size: 35px;
+    
+  }

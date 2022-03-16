@@ -82,14 +82,17 @@ a:hover{
    
   }
 
-/* ############################## */
-  
 
+  .line{
+    position: relative;
+    top: -150px
+  }
 
-
-
-
-  /* ####################### */
+  .line:hover{
+    position: relative;
+    top: -150px;
+    opacity: 0.3;
+  }
  img{
      width: 450px;
      height: 200px;
@@ -100,7 +103,7 @@ a:hover{
     background: hsl(240, 20%, 1%);
     grid-area: content1;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
+    font-size: 20px;
 }
 
     #content1:hover {
@@ -116,6 +119,7 @@ a:hover{
     grid-area: content2;
     border-radius:  5px 5px 0px 0px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
   }
   
   #content3 {

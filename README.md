@@ -17,6 +17,14 @@
 - Flexbox
 - CSS Grid
 
-### my challenges
+### My challenges
 
-How to move nav bar on top of the line with hover without moving line and other objects.
+ - How to change color and move nav bar on top of the line below when hover on it without moving line and other objects.
+ - Make page responsive for mobile phones.
+
+
+### Useful resources
+
+- [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Great cheatsheet for CSS Flexbox
+- [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - Complete guide to grid.
+- [CSS box-shadow examples](https://getcssscan.com/css-box-shadow-examples) - Beautiful CSS box-shadow examples

@@ -28,3 +28,7 @@
 - [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Great cheatsheet for CSS Flexbox
 - [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - Complete guide to grid.
 - [CSS box-shadow examples](https://getcssscan.com/css-box-shadow-examples) - Beautiful CSS box-shadow examples
+
+
+## Acknowledgments
+ I would like to thank to Code Nation and Keira for showing me how to use HTML, CSS and create our own webpage.

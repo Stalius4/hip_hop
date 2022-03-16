@@ -9,11 +9,9 @@
 
 body{
     background: rgb(255, 253, 253);
+    font-family: "Inter", sans-serif;
 }
 
-body {
-    font-family: "Inter", sans-serif;
-  }
   
   .container {
     display: grid;
@@ -21,7 +19,7 @@ body {
     width: 80%;
     margin: auto;
     grid-template-columns: 450px 450px 450px ;
-    grid-template-rows: 1fr 250px 250px 0.5fr;
+    grid-template-rows: 1fr 230px 230px 0.5fr;
     grid-template-areas:
       "nav nav nav "
       "content1 content2 content3 "
@@ -65,6 +63,7 @@ a:hover{
     margin: 15px;
     color: hsl(0, 33%, 1%);
     font-family: 'Hubballi', cursive;
+    transition-duration: 1s;
 
   }
 
@@ -85,13 +84,18 @@ a:hover{
 
   .line{
     position: relative;
-    top: -150px
+    transition-duration: 1s;
+    z-index: 1;
   }
 
   .line:hover{
     position: relative;
-    top: -150px;
-    opacity: 0.3;
+    opacity: 0.1;
+  }
+
+  .text-pos{
+    position: relative;
+    top:-160px
   }
  img{
      width: 450px;
@@ -106,47 +110,39 @@ a:hover{
     font-size: 20px;
 }
 
-    #content1:hover {
-     background: hsl(240, 20%, 1%);
-    grid-area: content1;
-    color:rgba(225, 228, 40, 0.836);
-    text-decoration: none;
-    
-  }
-  
   #content2 {
     background: hsl(240, 20%, 1%);
     grid-area: content2;
-    border-radius:  5px 5px 0px 0px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
+    font-size: 20px;
   }
-  
+ 
   #content3 {
     background: hsl(240, 20%, 1%);
     grid-area: content3;
-    border-radius:  5px 5px 0px 0px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-size: 20px;
   }
-  
+
   #content4 {
     background: hsl(240, 20%, 1%);
     grid-area: content4;
-    border-radius:  5px 5px 0px 0px;
+    font-size: 20px;
   }
-  
+
   #content5 {
     background: hsl(240, 20%, 1%);
     grid-area: content5;
-    border-radius:  5px 5px 0px 0px;
+    font-size: 20px;
   }
-  
+ 
+
   #content6 {
     background: hsl(240, 20%, 1%);
     grid-area: content6;
-    border-radius:  5px 5px 0px 0px;
+    font-size: 20px;
   }
-  
+
   footer {
     background: hsl(210, 30%, 29%);
     grid-area: footer;
@@ -209,7 +205,7 @@ a:hover{
     width: 80%;
     margin: auto;
     grid-template-columns: 450px 450px 450px ;
-    grid-template-rows: 1fr 250px 250px 0.5fr;
+    grid-template-rows: 1fr 230px 230px 0.5fr;
     grid-template-areas:
       "nav nav nav "
       "content1 content2 content3 "
@@ -232,6 +228,7 @@ a:hover{
 
   spam{
     font-size: 35px;
+    
   }
 
   #hiphop1 {

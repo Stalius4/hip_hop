@@ -19,9 +19,8 @@
 
 ### My challenges
 
-How to change color and move nav bar on top of the line below when hover on it without moving line and other objects.
-
-Make page responsive for mobile phones.
+ - How to change color and move nav bar on top of the line below when hover on it without moving line and other objects.
+ - Make page responsive for mobile phones.
 
 
 ### Useful resources

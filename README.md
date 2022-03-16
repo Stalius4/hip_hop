@@ -10,7 +10,7 @@
 ![](./screenshot.png)
 
 
-- Live Site URL: [Add live site URL here](https://stalius4.github.io/hip_hop/)
+- Live Site URL: [https://stalius4.github.io/hip_hop/](https://stalius4.github.io/hip_hop/)
 
 ### Built with
 
